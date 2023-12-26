@@ -7,6 +7,7 @@ try{
 
   if(num2 === 0){
     //LANCE UM NOVO ERRO COM O OPERADOR THROW
+    throw new Error("Divisão por zero")
   }
 
   console.log('O resultado da divisão é : ', num1/num2);
